@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Python debugging files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore video files
+*.mp4
+
+# Ignore model weights (e.g., YOLOv8 weights)
+*.pt
+
+# Ignore Docker files and volumes
+*.pid
+*.log
+*.sock
+tmp/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
